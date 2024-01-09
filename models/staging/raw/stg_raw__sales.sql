@@ -12,7 +12,7 @@ renamed as (
         date_date,
         orders_id,
         pdt_id AS products_id,
-        CAST(revenue as int64) AS revenue,
+        revenue,
         quantity
 
     from source
