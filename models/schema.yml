@@ -26,8 +26,7 @@ sources:
         identifier: raw_gz_ship
         tests:
           - unique:
-              column_name: orders_id
-               - not_null   
+              column_name: orders_id  
         description: shipping and logistics costs of greenweez orders 
         columns:
           - name: orders_id
@@ -42,8 +41,7 @@ sources:
         identifier: raw_gz_product
         tests:
           - unique:
-              column_name: products_id
-               - not_null     
+              column_name: products_id    
         description: purchase price of each product identified through id
         columns:
           - name: products_id
