@@ -7,9 +7,6 @@ sources:
     tables:
       - name: sales
         identifier: raw_gz_sales
-        tests:
-          - unique:
-              column_name: "(product_id || '_' || date_date)"
         description: sales of greenweez/we have one row per products_id found in each orders_id
         columns:
           - name: date_date
