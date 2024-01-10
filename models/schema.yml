@@ -78,4 +78,10 @@ models:
             - date_date
             - revenue
             - quantity        
-        
+- name: int_orders_operational
+  description: operational margin calcultation per order 
+  columns:
+      - name: operational_margin 
+        description: Operational margin = margin + shipping fee - log_cost - ship_cost
+- name: finance_days
+  description: finance calculation per days        
