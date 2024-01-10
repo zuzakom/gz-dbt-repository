@@ -12,7 +12,7 @@ models:
     marts:
       +materialized: table
       finance:
-        schema: dbt_finance
+        schema: dbt_
 
 # Name your project! Project names should contain only lowercase characters
 # and underscores. A good package name should reflect your organization's
